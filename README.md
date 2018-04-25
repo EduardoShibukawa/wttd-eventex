@@ -2,6 +2,9 @@
 
 Sistema de eventos encomentado pela morena.
 
+[![Build Status](https://travis-ci.org/EduardoShibukawa/wttd-eventex.svg?branch=master)](https://travis-ci.org/EduardoShibukawa/wttd-eventex)
+[![Code Health](https://landscape.io/github/EduardoShibukawa/wttd-eventex/master/landscape.svg?style=flat)](https://landscape.io/github/EduardoShibukawa/wttd-eventex/master)
+
 ## Como desenvolver?
 
 1. Clone o respositório
