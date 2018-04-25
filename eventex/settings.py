@@ -28,6 +28,8 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=[], cast=Csv(post_process=list))
 
+DEFAULT_FROM_EMAIL = 'contato@eventex.com.br'
+
 # Application definition
 
 INSTALLED_APPS = (
