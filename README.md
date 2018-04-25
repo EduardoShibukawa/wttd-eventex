@@ -4,6 +4,8 @@ Sistema de eventos encomentado pela morena.
 
 [![Build Status](https://travis-ci.org/EduardoShibukawa/wttd-eventex.svg?branch=master)](https://travis-ci.org/EduardoShibukawa/wttd-eventex)
 [![Code Health](https://landscape.io/github/EduardoShibukawa/wttd-eventex/master/landscape.svg?style=flat)](https://landscape.io/github/EduardoShibukawa/wttd-eventex/master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/696e0688cf1c489ef3a0/maintainability)](https://codeclimate.com/github/EduardoShibukawa/wttd-eventex/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/696e0688cf1c489ef3a0/test_coverage)](https://codeclimate.com/github/EduardoShibukawa/wttd-eventex/test_coverage)
 
 ## Como desenvolver?
 
