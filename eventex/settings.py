@@ -44,7 +44,7 @@ INSTALLED_APPS = (
     'django_extensions',
 
     'eventex.core',
-    'eventex.subscriptions'
+    'eventex.subscriptions.apps.SubscriptionConfig'
 )
 
 MIDDLEWARE = [
