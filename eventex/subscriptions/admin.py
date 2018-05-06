@@ -10,12 +10,25 @@ class SubscriptionModelAdmin(admin.ModelAdmin):
     date_hierarchy = 'created_at'
     search_fields = ('name', 'email', 'phone', 'cpf', 'created_at')
     list_filter = ('paid', 'created_at')
+    actions = ['mark_as_paid']
 
     def subscribed_today(self, obj):
         return obj.created_at.date() == now().date()
 
     subscribed_today.short_description = 'Inscrito hoje?'
     subscribed_today.boolean = True
+
+    def mark_as_paid(self, request, queryset):
+        count = queryset.update(paid=True)
+        if count == 1:
+            msg = '1 Inscrição foi marcada como paga.'
+
+        else:
+            msg = '{} Inscrições foram marcadas como paga'.format(count)
+
+        self.message_user(request, msg)
+
+    mark_as_paid.short_description = 'Marcar como pago'
 
 
 admin.site.register(Subscription, SubscriptionModelAdmin)
